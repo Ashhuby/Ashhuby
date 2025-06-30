@@ -7,27 +7,18 @@
 ## 🔧 Technologies & Tools
 ![]()
 ![]()
-
 ## 🚀 My Projects
 
-
 ## 📊 GitHub Stats
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical)
+![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=Ashhuby&show_icons=true&theme=radical)
 
-## 💬 Fun Fact
-> 
 
-<!--
-**Ashhuby/Ashhuby** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+- 🔭 I’m currently working on: Nix - The Goblinette
+- 📖 I'm currently reading: No Longer Human
+- 🏫 I’m currently studying at: The University of Hull
+- 💬 Ask me about: Fear and hunger lore
+- 📫 How to reach me: Email me (Found on portfolio website)
+- 😄 Pronouns: He/Him
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
