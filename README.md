@@ -39,4 +39,5 @@
 - 📫 How to reach me: Email me (Found on portfolio website)
 - 😄 Pronouns: He/Him
 
+Hater of ruby
 
