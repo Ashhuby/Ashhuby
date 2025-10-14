@@ -28,7 +28,17 @@
 
 
 ## 📊 GitHub Stats
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=Ashhuby&show_icons=true&theme=radical)
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Ashhuby&show_icons=true&theme=transparent&hide_border=true&line_height=25" alt="Marwan's GitHub Stats" />
+
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ashhuby&layout=compact&theme=transparent&hide_border=true" alt="Marwan's Top Languages" />
+
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ashhuby&theme=transparent&hide_border=true" alt="Marwan's GitHub Streak" />
+</div>
+
+<br>
+
 
 
 
