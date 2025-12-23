@@ -40,8 +40,8 @@
 <br>
 
 
-- 🔭 I’m currently working on: Nix - The Goblinette
-- 📖 I'm currently reading: No longer human
+- 🔭 I’m currently working on: Spicing up the site
+- 📖 I'm currently reading: A Game Of Thrones
 - 🏫 I’m currently studying at: The University of **Hull**
 - 💬 Ask me about: Fear and hunger lore
 - 📫 How to reach me: Email me (Found on portfolio website)
