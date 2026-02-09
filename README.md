@@ -1,4 +1,4 @@
-# HELLO WORLD 👋 I'm Marwan
+# HELLO WORLD  I'm Marwan
 
 ### Find Me Here
 
@@ -27,7 +27,7 @@
 ![Android Studio](https://img.shields.io/badge/Android_Studio-3DDC84?style=flat&logo=android-studio&logoColor=white)
 
 
-## 📊 GitHub Stats
+## GitHub Stats
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Ashhuby&show_icons=true&theme=transparent&hide_border=true&line_height=25" alt="Marwan's GitHub Stats" />
@@ -40,9 +40,9 @@
 <br>
 
 
-- 🔭 I’m currently working on: Shubs Text Editor
-- 📖 I'm currently reading: No Longer Human
-- 🏫 I’m currently studying at: The University of **Hull**
-- 💬 Ask me about: Fear and hunger lore
-- 📫 How to reach me: Email me (Found on portfolio website)
-- 😄 Pronouns: He/Him
+-  I’m currently working on: Shubs Text Editor
+-  I'm currently reading: No Longer Human
+-  I’m currently studying at: The University of **Hull**
+-  Ask me about: Fear and hunger lore
+-  How to reach me: Email me (Found on portfolio website)
+-  Pronouns: He/Him
