@@ -14,16 +14,19 @@ jobs:
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
-
-      
+        
       - name: Download Cards
         run: |
-          # The URLs below include the /api and your username. This is the fix.
-          curl -sL "https://github-readme-stats-eight-theta.vercel.app" -o temp-stats.svg
-          curl -sL "https://github-readme-stats-eight-theta.vercel.app" -o temp-langs.svg
-          curl -sL "https://streak-stats.demolab.com" -o temp-streak.svg
+          # Fetch the Main Stats Card
+          curl -sL "https://github-readme-stats-eight-theta.vercel.app/api?username=Ashhuby&show_icons=true&theme=radical" -o temp-stats.svg
+          
+          # Fetch the Top Languages Card
+          curl -sL "https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Ashhuby&layout=compact&theme=radical" -o temp-langs.svg
+          
+          # Fetch the Streak Stats Card
+          curl -sL "https://streak-stats.demolab.com?user=Ashhuby&theme=radical" -o temp-streak.svg
 
-          # Safety check: ensures we don't save broken HTML
+          # Safety check: ensures we only move the file if it contains actual SVG data
           grep -q "<svg" temp-stats.svg && mv temp-stats.svg github-stats.svg || echo "Stats failed"
           grep -q "<svg" temp-langs.svg && mv temp-langs.svg top-langs.svg || echo "Langs failed"
           grep -q "<svg" temp-streak.svg && mv temp-streak.svg streak-stats.svg || echo "Streak failed"
