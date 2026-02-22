@@ -40,7 +40,7 @@
 <br>
 
 
--  I’m currently working on: Shubs Text Editor
+-  I’m currently working on: Game of Life
 -  I'm currently reading: No Longer Human
 -  I’m currently studying at: The University of **Hull**
 -  Ask me about: Fear and hunger lore
