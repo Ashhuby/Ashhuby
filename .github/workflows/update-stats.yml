@@ -14,13 +14,13 @@ jobs:
 
       - name: Download Cards
         run: |
-          # Mirror 1 for main stats
+          # Main Stats - using a stable community mirror
           curl -sL "https://github-readme-stats-eight-theta.vercel.app" -o github-stats.svg
           
-          # Mirror 2 for languages
-          curl -sL "https://github-readme-stats-git-master-anuraghazra.vercel.app" -o top-langs.svg
+          # Top Languages
+          curl -sL "https://github-readme-stats-eight-theta.vercel.app" -o top-langs.svg
 
-          # Streak stats (using the most stable mirror)
+          # Streak Stats
           curl -sL "https://github-readme-streak-stats.herokuapp.com" -o streak-stats.svg
 
       - name: Commit and Push

@@ -26,15 +26,13 @@
 ![Godot](https://img.shields.io/badge/Godot-478CBF?style=flat&logo=godot-engine&logoColor=white)
 ![Android Studio](https://img.shields.io/badge/Android_Studio-3DDC84?style=flat&logo=android-studio&logoColor=white)
 
-
 ## GitHub Stats
 
-<div align="center">
-  <img src="./github-stats.svg" alt="GitHub Stats" />
-  <img src="./top-langs.svg" alt="Top Languages" />
-  <img src="./streak-stats.svg" alt="GitHub Streak" />
-</div>
-
+<p align="center">
+  <img src="github-stats.svg" />
+  <img src="top-langs.svg" />
+  <img src="streak-stats.svg" />
+</p>
 
 -  I’m currently working on: Game of Life
 -  I'm currently reading: No Longer Human
