@@ -2,8 +2,8 @@ name: Update Stats Images
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
-  workflow_dispatch:
+    - cron: "0 */12 * * *" # Runs every 12 hours
+  workflow_dispatch: # Allows you to run it manually
 
 jobs:
   update-stats:
@@ -14,15 +14,15 @@ jobs:
 
       - name: Download Cards
         run: |
-          # Download Main Stats
-          curl -sL "https://github-readme-stats-eight-theta.vercel.app" -o github-stats.svg
-          
-          # Download Top Languages
-          curl -sL "https://github-readme-stats-eight-theta.vercel.app" -o top-langs.svg
+          # 1. Download to temporary files using the stable mirrors and your demolab link
+          curl -sL "https://github-readme-stats-eight-theta.vercel.app" -o temp-stats.svg
+          curl -sL "https://github-readme-stats-eight-theta.vercel.app" -o temp-langs.svg
+          curl -sL "https://streak-stats.demolab.com" -o temp-streak.svg
 
-          # Download Streak Stats
-          curl -sL "https://github-readme-streak-stats.herokuapp.com" -o streak-stats.svg
-
+          # 2. Safety check: Only move if the file contains actual SVG code (prevents HTML error pages)
+          grep -q "<svg" temp-stats.svg && mv temp-stats.svg github-stats.svg || echo "Stats failed"
+          grep -q "<svg" temp-langs.svg && mv temp-langs.svg top-langs.svg || echo "Langs failed"
+          grep -q "<svg" temp-streak.svg && mv temp-streak.svg streak-stats.svg || echo "Streak failed"
 
       - name: Commit and Push
         run: |
