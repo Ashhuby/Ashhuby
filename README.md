@@ -26,21 +26,23 @@
 
 ---
 
-<table align="center" border="0">
+<table align="center" style="border: none; border-collapse: collapse; border-spacing: 0;">
   <tr>
-    <td width="50%"><img src="github-stats.svg" width="100%" /></td>
-    <td width="50%"><img src="top-langs.svg" width="100%" /></td>
+    <td width="50%" style="border: none;"><img src="github-stats.svg" width="100%" /></td>
+    <td width="50%" style="border: none;"><img src="top-langs.svg" width="100%" /></td>
   </tr>
   <tr>
-    <td colspan="2" align="center"><img src="streak-stats.svg" width="100%" /></td>
+    <td colspan="2" align="center" style="border: none;"><img src="streak-stats.svg" width="100%" /></td>
   </tr>
 </table>
 
 ---
 
-<div align ="center">
-  ### Current Focus
-  -  **Working on:** Developing a complex implementation of **Conway's Game of Life**.
-  -  **Reading:** *No Longer Human* by Osamu Dazai.
-  -  **Ask me about:** Fear and Hunger Lore.
-</div>  
+
+<div align="center">
+  <h3>Current Focus</h3>
+
+  - **Working on:** Simulating Conway's Game of Life.
+  - **Reading:** *No Longer Human* by Osamu Dazai.
+  - **Ask me about:** Fear and Hunger Lore.
+</div>
