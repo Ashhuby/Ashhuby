@@ -30,11 +30,10 @@
 ## GitHub Stats
 
 <div align="center">
-  <img src="./github-stats.svg" alt="GitHub Stats" />
-  <img src="./top-langs.svg" alt="Top Languages" />
-  <img src="./streak-stats.svg" alt="GitHub Streak" />
+  <img src="https://raw.githubusercontent.com" alt="GitHub Stats" />
+  <img src="https://raw.githubusercontent.com" alt="Top Languages" />
+  <img src="https://raw.githubusercontent.com" alt="GitHub Streak" />
 </div>
-
 
 -  I’m currently working on: Game of Life
 -  I'm currently reading: No Longer Human
