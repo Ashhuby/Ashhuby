@@ -29,9 +29,9 @@
 ## GitHub Stats
 
 <p align="center">
-  <img src="github-stats.svg" />
-  <img src="top-langs.svg" />
-  <img src="streak-stats.svg" />
+  <img src="github-stats.svg?v=1" alt="GitHub Stats" />
+  <img src="top-langs.svg?v=1" alt="Top Languages" />
+  <img src="streak-stats.svg?v=1" alt="GitHub Streak" />
 </p>
 
 -  I’m currently working on: Game of Life
