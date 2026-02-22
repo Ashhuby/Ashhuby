@@ -5,8 +5,8 @@ on:
     - cron: "0 */12 * * *" # Runs every 12 hours
   push:
     branches:
-      - main # Runs automatically whenever you push code
-  workflow_dispatch: # Allows manual trigger
+      - main # Automatically runs when you commit to README
+  workflow_dispatch: # Allows manual run
 
 jobs:
   update-stats:
@@ -17,21 +17,21 @@ jobs:
 
       - name: Download Cards
         run: |
-          # 1. Download to temporary files using FULL API PATHS for Ashhuby
+          # 1. Use the FULL API path with your username for the mirror
           curl -sL "https://github-readme-stats-eight-theta.vercel.app" -o temp-stats.svg
           curl -sL "https://github-readme-stats-eight-theta.vercel.app" -o temp-langs.svg
           curl -sL "https://streak-stats.demolab.com" -o temp-streak.svg
 
-          # 2. Safety check: Only move if it's a real SVG. If it fails, we keep the old one.
-          grep -q "<svg" temp-stats.svg && mv temp-stats.svg github-stats.svg || echo "Stats failed"
-          grep -q "<svg" temp-langs.svg && mv temp-langs.svg top-langs.svg || echo "Langs failed"
-          grep -q "<svg" temp-streak.svg && mv temp-streak.svg streak-stats.svg || echo "Streak failed"
+          # 2. Safety check: Only move if it's a real SVG (contains "<svg")
+          grep -q "<svg" temp-stats.svg && mv temp-stats.svg github-stats.svg || echo "Stats download failed"
+          grep -q "<svg" temp-langs.svg && mv temp-langs.svg top-langs.svg || echo "Langs download failed"
+          grep -q "<svg" temp-streak.svg && mv temp-streak.svg streak-stats.svg || echo "Streak download failed"
 
       - name: Commit and Push
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add github-stats.svg top-langs.svg streak-stats.svg
-          # Only commit if there are actually changes to the images
+          # Only commit if the files actually changed
           git diff --quiet && git diff --staged --quiet || git commit -m "chore: update profile stats images"
           git push
