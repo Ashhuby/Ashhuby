@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Hi, I'm Marwan 👋</h1>
+  <h1>Hello World, I'm Marwan 👋</h1>
   <p><strong>Software Engineering Student @ University of Hull | Pocketcat Productions | Team Goblinette</strong></p>
     
   <a href="https://ashhuby.itch.io/">
@@ -14,6 +14,7 @@
 </div>
 
 ---
+
 <div align="center">
   <h3>My Stack</h3> 
 
@@ -31,6 +32,17 @@
       </td>
     </tr>
     <tr>
+      <td align="left" style="border: none;"><strong>Systems & Build</strong></td>
+      <td align="left" style="border: none;">
+        <img src="https://img.shields.io/badge/-MySQL-4479A1?logo=mysql&logoColor=white" />
+        <img src="https://img.shields.io/badge/-SQLite-003B57?logo=sqlite&logoColor=white" />
+        <img src="https://img.shields.io/badge/vcpkg-5C2D91?logo=microsoft&logoColor=white" />
+        <img src="https://img.shields.io/badge/MSVC-0078D4?logo=visual-studio&logoColor=white" />
+        <img src="https://img.shields.io/badge/MinGW64-FFCC00?logo=cplusplus&logoColor=black" />
+        <img src="https://img.shields.io/badge/MSYS2-212121?logo=gnubash&logoColor=white" />
+      </td>
+    </tr>
+    <tr>
       <td align="left" style="border: none;"><strong>Frameworks & Tools</strong></td>
       <td align="left" style="border: none;">
         <img src="https://img.shields.io/badge/-Godot-478CBF?logo=godot-engine&logoColor=white" />
@@ -38,16 +50,6 @@
         <img src="https://img.shields.io/badge/-Flutter-02569B?logo=flutter&logoColor=white" />
         <img src="https://img.shields.io/badge/-Android_Studio-3DDC84?logo=android-studio&logoColor=white" />
         <img src="https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white" />
-      </td>
-    </tr>
-   <tr>
-      <td align="left" style="border: none;"><strong>Systems & Build</strong></td>
-      <td align="left" style="border: none;">
-        <img src="https://img.shields.io/badge/-MySQL-4479A1?logo=mysql&logoColor=white" style="vertical-align:middle" />
-        <img src="https://img.shields.io/badge/-SQLite-003B57?logo=sqlite&logoColor=white" style="vertical-align:middle" />
-        <span style="vertical-align:middle; margin-left:4px;">
-          <code>vcpkg</code> • <code>MSVC</code> • <code>MinGW64</code> • <code>MSYS2</code>
-        </span>
       </td>
     </tr>
     <tr>
@@ -74,7 +76,6 @@
 </table>
 
 ---
-
 
 <div align="center">
   <h3>Current Focus</h3>
