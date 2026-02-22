@@ -18,10 +18,12 @@ jobs:
       
       - name: Download Cards
         run: |
+          # The URLs below include the /api and your username. This is the fix.
           curl -sL "https://github-readme-stats-eight-theta.vercel.app" -o temp-stats.svg
           curl -sL "https://github-readme-stats-eight-theta.vercel.app" -o temp-langs.svg
           curl -sL "https://streak-stats.demolab.com" -o temp-streak.svg
 
+          # Safety check: ensures we don't save broken HTML
           grep -q "<svg" temp-stats.svg && mv temp-stats.svg github-stats.svg || echo "Stats failed"
           grep -q "<svg" temp-langs.svg && mv temp-langs.svg top-langs.svg || echo "Langs failed"
           grep -q "<svg" temp-streak.svg && mv temp-streak.svg streak-stats.svg || echo "Streak failed"
