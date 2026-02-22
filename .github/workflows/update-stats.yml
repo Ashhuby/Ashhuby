@@ -3,7 +3,10 @@ name: Update Stats Images
 on:
   schedule:
     - cron: "0 */12 * * *" # Runs every 12 hours
-  workflow_dispatch: # Allows you to run it manually
+  push:
+    branches:
+      - main # Runs automatically whenever you push code
+  workflow_dispatch: # Allows manual trigger
 
 jobs:
   update-stats:
@@ -14,12 +17,12 @@ jobs:
 
       - name: Download Cards
         run: |
-          # 1. Download to temporary files using the stable mirrors and your demolab link
+          # 1. Download to temporary files using FULL API PATHS for Ashhuby
           curl -sL "https://github-readme-stats-eight-theta.vercel.app" -o temp-stats.svg
           curl -sL "https://github-readme-stats-eight-theta.vercel.app" -o temp-langs.svg
           curl -sL "https://streak-stats.demolab.com" -o temp-streak.svg
 
-          # 2. Safety check: Only move if the file contains actual SVG code (prevents HTML error pages)
+          # 2. Safety check: Only move if it's a real SVG. If it fails, we keep the old one.
           grep -q "<svg" temp-stats.svg && mv temp-stats.svg github-stats.svg || echo "Stats failed"
           grep -q "<svg" temp-langs.svg && mv temp-langs.svg top-langs.svg || echo "Langs failed"
           grep -q "<svg" temp-streak.svg && mv temp-streak.svg streak-stats.svg || echo "Streak failed"
@@ -29,5 +32,6 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add github-stats.svg top-langs.svg streak-stats.svg
-          git commit -m "chore: update profile stats images" || exit 0
+          # Only commit if there are actually changes to the images
+          git diff --quiet && git diff --staged --quiet || git commit -m "chore: update profile stats images"
           git push
