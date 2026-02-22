@@ -14,14 +14,51 @@
 </div>
 
 ---
-<div align ="center">
-  <h3> My Stack</h3> 
+<div align="center">
+  <h3>My Stack</h3> 
 
-  |  |  |
-  | :--- | :--- |
-  | **Languages** | ![C#](https://img.shields.io/badge/-C%23-239120?logo=c-sharp&logoColor=white) ![C++](https://img.shields.io/badge/-C++-00599C?logo=c%2B%2B&logoColor=white) ![Dart](https://img.shields.io/badge/-Dart-0175C2?logo=dart&logoColor=white) ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) ![Kotlin](https://img.shields.io/badge/-Kotlin-0095D5?logo=kotlin&logoColor=white) ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white) |
-  | **Tools** | ![Godot](https://img.shields.io/badge/-Godot-478CBF?logo=godot-engine&logoColor=white) ![Arduino](https://img.shields.io/badge/-Arduino-00979D?logo=arduino&logoColor=white) ![Flutter](https://img.shields.io/badge/-Flutter-02569B?logo=flutter&logoColor=white) ![Android Studio](https://img.shields.io/badge/-Android_Studio-3DDC84?logo=android-studio&logoColor=white) |
-  | **Development Environments** | ![VS Code](https://img.shields.io/badge/-VS_Code-007ACC?logo=visual-studio-code&logoColor=white) ![Visual Studio](https://img.shields.io/badge/-Visual_Studio-5C2D91?logo=visual-studio&logoColor=white) ![PyCharm](https://img.shields.io/badge/-PyCharm-000000?logo=pycharm&logoColor=white) |
+  <table align="center">
+    <tr>
+      <td align="left" style="border: none;"><strong>Languages</strong></td>
+      <td align="left" style="border: none;">
+        <img src="https://img.shields.io/badge/-C%23-239120?logo=c-sharp&logoColor=white" />
+        <img src="https://img.shields.io/badge/-C++-00599C?logo=c%2B%2B&logoColor=white" />
+        <img src="https://img.shields.io/badge/-Dart-0175C2?logo=dart&logoColor=white" />
+        <img src="https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/-Kotlin-0095D5?logo=kotlin&logoColor=white" />
+        <img src="https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white" />
+        <img src="https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white" />
+      </td>
+    </tr>
+    <tr>
+      <td align="left" style="border: none;"><strong>Frameworks & Tools</strong></td>
+      <td align="left" style="border: none;">
+        <img src="https://img.shields.io/badge/-Godot-478CBF?logo=godot-engine&logoColor=white" />
+        <img src="https://img.shields.io/badge/-Arduino-00979D?logo=arduino&logoColor=white" />
+        <img src="https://img.shields.io/badge/-Flutter-02569B?logo=flutter&logoColor=white" />
+        <img src="https://img.shields.io/badge/-Android_Studio-3DDC84?logo=android-studio&logoColor=white" />
+        <img src="https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white" />
+      </td>
+    </tr>
+   <tr>
+      <td align="left" style="border: none;"><strong>Systems & Build</strong></td>
+      <td align="left" style="border: none;">
+        <img src="https://img.shields.io/badge/-MySQL-4479A1?logo=mysql&logoColor=white" style="vertical-align:middle" />
+        <img src="https://img.shields.io/badge/-SQLite-003B57?logo=sqlite&logoColor=white" style="vertical-align:middle" />
+        <span style="vertical-align:middle; margin-left:4px;">
+          <code>vcpkg</code> • <code>MSVC</code> • <code>MinGW64</code> • <code>MSYS2</code>
+        </span>
+      </td>
+    </tr>
+    <tr>
+      <td align="left" style="border: none;"><strong>IDEs</strong></td>
+      <td align="left" style="border: none;">
+        <img src="https://img.shields.io/badge/-Visual_Studio-5C2D91?logo=visual-studio&logoColor=white" />
+        <img src="https://img.shields.io/badge/-VS_Code-007ACC?logo=visual-studio-code&logoColor=white" />
+        <img src="https://img.shields.io/badge/-PyCharm-000000?logo=pycharm&logoColor=white" />
+      </td>
+    </tr>
+  </table>
 </div>
 
 ---
