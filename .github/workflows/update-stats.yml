@@ -14,15 +14,14 @@ jobs:
 
       - name: Download Cards
         run: |
-          # Download Main Stats
+          # 1. Main Stats Card
           curl -sL "https://github-readme-stats-eight-theta.vercel.app" -o github-stats.svg
           
-          # Download Top Languages
+          # 2. Top Languages Card
           curl -sL "https://github-readme-stats-eight-theta.vercel.app" -o top-langs.svg
 
-          # Download Streak Stats
+          # 3. Streak Stats Card
           curl -sL "https://github-readme-streak-stats.herokuapp.com" -o streak-stats.svg
-
 
       - name: Commit and Push
         run: |
