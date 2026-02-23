@@ -80,7 +80,7 @@
 <div align="center">
   <h3>Current Focus</h3>
 
-  - **Working on:** Simulating Conway's Game of Life.
+  - **Working on:** N-Body Gravity Simulation.
   - **Reading:** *No Longer Human* by Osamu Dazai.
   - **Ask me about:** Fear and Hunger Lore.
 </div>
