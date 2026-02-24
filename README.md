@@ -1,7 +1,7 @@
 <div align="center">
   <h1>Hello World, I'm Marwan 👋</h1>
   <p><strong>Software Engineering Student @ University of Hull | Pocketcat Productions | Team Goblinette</strong></p>
-    
+
   <a href="https://ashhuby.itch.io/">
     <img src="https://img.shields.io/badge/Itch.io-%23FA5C5C.svg?style=for-the-badge&logo=itchdotio&logoColor=white" />
   </a>
@@ -45,10 +45,11 @@
     <tr>
       <td align="left" style="border: none;"><strong>Frameworks & Tools</strong></td>
       <td align="left" style="border: none;">
+        <img src="https://img.shields.io/badge/-SFML-8CC445?logo=sfml&logoColor=white" />
         <img src="https://img.shields.io/badge/-Godot-478CBF?logo=godot-engine&logoColor=white" />
         <img src="https://img.shields.io/badge/-Arduino-00979D?logo=arduino&logoColor=white" />
         <img src="https://img.shields.io/badge/-Flutter-02569B?logo=flutter&logoColor=white" />
-        <img src="https://img.shields.io/badge/-Android_Studio-3DDC84?logo=android-studio&logoColor=white" />
+        <img src="https://img.shields.io/badge/-Bun-212121?logo=bun&logoColor=white" />
         <img src="https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white" />
       </td>
     </tr>
@@ -76,11 +77,13 @@
 </table>
 
 ---
-
 <div align="center">
   <h3>Current Focus</h3>
 
-  - **Working on:** N-Body Gravity Simulation.
-  - **Reading:** *No Longer Human* by Osamu Dazai.
-  - **Ask me about:** Fear and Hunger Lore.
+  <p align="center">
+    <b>Working on:</b> N-Body Gravity Simulation using <code>SFML</code> <br>
+    <b>Reading:</b> <i>No Longer Human</i> by Osamu Dazai <br>
+    <b>Ask me about:</b> Fear & Hunger Lore <br>
+    Using Bun to spend as little time as possible in JS before getting back to C++/C#
+  </p>
 </div>
