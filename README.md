@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Hello World, I'm Marwan 👋</h1>
+  <h1>Hello World, I'm Marwan </h1>
   <p><strong>Software Engineering Student @ University of Hull | Pocketcat Productions | Team Goblinette</strong></p>
 
   <a href="https://ashhuby.itch.io/">
