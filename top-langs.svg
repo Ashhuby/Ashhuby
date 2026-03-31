@@ -65,7 +65,7 @@
             data-testid="lang-progress"
             x="0" 
             y="0"
-            width="188.73" 
+            width="178.28" 
             height="8"
             fill="#f34b7d"
           />
@@ -73,9 +73,9 @@
           <rect
             mask="url(#rect-mask)" 
             data-testid="lang-progress"
-            x="188.73" 
+            x="178.28" 
             y="0"
-            width="41.05" 
+            width="38.77" 
             height="8"
             fill="#e34c26"
           />
@@ -83,9 +83,9 @@
           <rect
             mask="url(#rect-mask)" 
             data-testid="lang-progress"
-            x="229.77999999999997" 
+            x="217.05" 
             y="0"
-            width="33.46" 
+            width="31.61" 
             height="8"
             fill="#178600"
           />
@@ -93,56 +93,56 @@
           <rect
             mask="url(#rect-mask)" 
             data-testid="lang-progress"
-            x="263.23999999999995" 
+            x="248.66000000000003" 
             y="0"
-            width="22.72" 
+            width="29.87" 
             height="8"
-            fill="#DA3434"
+            fill="#00B4AB"
           />
         
           <rect
             mask="url(#rect-mask)" 
             data-testid="lang-progress"
-            x="285.9599999999999" 
+            x="278.53000000000003" 
             y="0"
-            width="14.03" 
+            width="21.47" 
             height="8"
-            fill="#00B4AB"
+            fill="#DA3434"
           />
         
       
     <g transform="translate(0, 25)">
       <circle cx="5" cy="6" r="5" fill="#f34b7d" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        C++ (62.91%)
+        C++ (59.43%)
       </text>
     </g>
   
     <g transform="translate(150, 25)">
       <circle cx="5" cy="6" r="5" fill="#e34c26" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        HTML (13.68%)
+        HTML (12.92%)
       </text>
     </g>
   
     <g transform="translate(0, 50)">
       <circle cx="5" cy="6" r="5" fill="#178600" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        C# (11.15%)
+        C# (10.54%)
       </text>
     </g>
   
     <g transform="translate(150, 50)">
-      <circle cx="5" cy="6" r="5" fill="#DA3434" />
+      <circle cx="5" cy="6" r="5" fill="#00B4AB" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        CMake (7.57%)
+        Dart (9.96%)
       </text>
     </g>
   
     <g transform="translate(0, 75)">
-      <circle cx="5" cy="6" r="5" fill="#00B4AB" />
+      <circle cx="5" cy="6" r="5" fill="#DA3434" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Dart (4.68%)
+        CMake (7.16%)
       </text>
     </g>
   
