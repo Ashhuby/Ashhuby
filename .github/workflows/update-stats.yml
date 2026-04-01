@@ -17,16 +17,15 @@ jobs:
         
       - name: Download Cards
         run: |
-          # Fetch the Main Stats Card
+          # Main Stats Card
           curl -sL "https://github-readme-stats-eight-theta.vercel.app/api?username=Ashhuby&show_icons=true&theme=radical" -o temp-stats.svg
           
-          # Fetch the Top Languages Card
+          # Top Languages Card
           curl -sL "https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Ashhuby&layout=compact&theme=radical" -o temp-langs.svg
           
-          # Fetch the Streak Stats Card
+          # Streak Stats Card
           curl -sL "https://streak-stats.demolab.com?user=Ashhuby&theme=radical" -o temp-streak.svg
 
-          # Safety check: ensures we only move the file if it contains actual SVG data
           grep -q "<svg" temp-stats.svg && mv temp-stats.svg github-stats.svg || echo "Stats failed"
           grep -q "<svg" temp-langs.svg && mv temp-langs.svg top-langs.svg || echo "Langs failed"
           grep -q "<svg" temp-streak.svg && mv temp-streak.svg streak-stats.svg || echo "Streak failed"
