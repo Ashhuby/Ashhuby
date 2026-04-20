@@ -16,12 +16,12 @@
 ---
 
 <div align="center">
-  <h3>My Stack</h3> 
+  <h3>Stack</h3>
 
   <table align="center">
     <tr>
-      <td align="left" style="border: none;"><strong>Languages</strong></td>
-      <td align="left" style="border: none;">
+      <td align="right"><strong>Languages</strong></td>
+      <td align="left">
         <img src="https://img.shields.io/badge/-C%23-239120?logo=c-sharp&logoColor=white" />
         <img src="https://img.shields.io/badge/-C++-00599C?logo=c%2B%2B&logoColor=white" />
         <img src="https://img.shields.io/badge/-Dart-0175C2?logo=dart&logoColor=white" />
@@ -32,32 +32,31 @@
       </td>
     </tr>
     <tr>
-      <td align="left" style="border: none;"><strong>Systems & Build</strong></td>
-      <td align="left" style="border: none;">
-        <img src="https://img.shields.io/badge/-MySQL-4479A1?logo=mysql&logoColor=white" />
+      <td align="right"><strong>Databases &amp; Toolchain</strong></td>
+      <td align="left">
+        <img src="https://img.shields.io/badge/-PostgreSQL-4169E1?logo=postgresql&logoColor=white" />
+        <img src="https://img.shields.io/badge/-Supabase-3ECF8E?logo=supabase&logoColor=white" />
         <img src="https://img.shields.io/badge/-SQLite-003B57?logo=sqlite&logoColor=white" />
         <img src="https://img.shields.io/badge/vcpkg-5C2D91?logo=microsoft&logoColor=white" />
         <img src="https://img.shields.io/badge/MSVC-0078D4?logo=visual-studio&logoColor=white" />
         <img src="https://img.shields.io/badge/MinGW64-FFCC00?logo=cplusplus&logoColor=black" />
-        <img src="https://img.shields.io/badge/MSYS2-212121?logo=gnubash&logoColor=white" />
       </td>
     </tr>
     <tr>
-      <td align="left" style="border: none;"><strong>Frameworks & Tools</strong></td>
-      <td align="left" style="border: none;">
-        <img src="https://img.shields.io/badge/-SFML-8CC445?logo=sfml&logoColor=white" />
-        <img src="https://img.shields.io/badge/-Godot-478CBF?logo=godot-engine&logoColor=white" />
-        <img src="https://img.shields.io/badge/-Arduino-00979D?logo=arduino&logoColor=white" />
+      <td align="right"><strong>Frameworks &amp; Engines</strong></td>
+      <td align="left">
         <img src="https://img.shields.io/badge/-Flutter-02569B?logo=flutter&logoColor=white" />
+        <img src="https://img.shields.io/badge/-Godot-478CBF?logo=godot-engine&logoColor=white" />
+        <img src="https://img.shields.io/badge/-SFML-8CC445?logo=sfml&logoColor=white" />
+        <img src="https://img.shields.io/badge/-Arduino-00979D?logo=arduino&logoColor=white" />
         <img src="https://img.shields.io/badge/-Bun-212121?logo=bun&logoColor=white" />
-        <img src="https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white" />
       </td>
     </tr>
     <tr>
-      <td align="left" style="border: none;"><strong>IDEs</strong></td>
-      <td align="left" style="border: none;">
-        <img src="https://img.shields.io/badge/-Visual_Studio-5C2D91?logo=visual-studio&logoColor=white" />
+      <td align="right"><strong>IDEs</strong></td>
+      <td align="left">
         <img src="https://img.shields.io/badge/-VS_Code-007ACC?logo=visual-studio-code&logoColor=white" />
+        <img src="https://img.shields.io/badge/-Visual_Studio-5C2D91?logo=visual-studio&logoColor=white" />
         <img src="https://img.shields.io/badge/-PyCharm-000000?logo=pycharm&logoColor=white" />
       </td>
     </tr>
