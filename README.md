@@ -81,7 +81,7 @@
 
   <p align="center">
     <b>Working on:</b> N-Body Gravity Simulation using <code>SFML</code> <br>
-    <b>Reading:</b> <i>No Longer Human</i> by Osamu Dazai <br>
+    <b>Reading:</b> <i>A Game of Thrones</i> by Osamu Dazai <br>
     <b>Ask me about:</b> Fear & Hunger Lore <br>
     Using Bun to spend as little time as possible in JS before getting back to C++/C#
   </p>
