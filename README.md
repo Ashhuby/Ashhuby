@@ -31,7 +31,7 @@
   <h3>Current Focus</h3>
 
   <p align="center">
-    <b>Working on:</b> N-Body Gravity Simulation using <code>SFML</code> <br>
+    <b>Working on:</b> GMTK 2026 game jam <br>
     <b>Reading:</b> <i>No Longer Human</i> by Osamu Dazai <br>
     <b>Ask me about:</b> Fear & Hunger Lore <br>
   </p>
